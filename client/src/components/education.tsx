@@ -47,7 +47,7 @@ export default function Education() {
               <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 <Languages className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-display font-bold text-white">COMMUNICATION</h3>
+              <h3 className="text-2xl font-display font-bold text-white">LANGUAGES</h3>
             </motion.div>
 
             <div className="space-y-4">

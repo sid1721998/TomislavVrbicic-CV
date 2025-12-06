@@ -50,7 +50,7 @@ export default function Experience() {
           viewport={{ once: true }}
           className="flex items-center gap-4 mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-display text-white">MISSION LOG</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-display text-white">EXPERIENCE</h2>
           <div className="h-px flex-1 bg-gradient-to-r from-primary/50 to-transparent"></div>
         </motion.div>
 
