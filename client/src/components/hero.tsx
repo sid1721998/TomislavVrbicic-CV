@@ -60,7 +60,7 @@ const SpaceStation = ({ className, delay = 0, duration = 30 }: { className?: str
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden pt-16 pb-0">
+    <section className="relative min-h-[40vh] flex flex-col justify-start overflow-hidden pt-8">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -79,29 +79,20 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 z-10 relative">
-        <div className="max-w-4xl mx-auto text-center">
-
-          <motion.h1 
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-3xl md:text-5xl font-bold mb-0 font-display tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
-          >
+      <div className="container mx-auto px-4 z-10 relative w-full">
+        <motion.div 
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="flex justify-start"
+        >
+          <h1 className="text-xl md:text-2xl font-bold font-display tracking-tighter text-white/90">
             TOMISLAV VRBICIC
-          </motion.h1>
-
-        </div>
+          </h1>
+        </motion.div>
       </div>
 
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce text-muted-foreground"
-      >
-        <ChevronDown className="w-6 h-6" />
-      </motion.div>
+      {/* Removed the centered content and bouncing arrow as per "and rest" implication of moving things up/simplifying */}
     </section>
   );
 }
