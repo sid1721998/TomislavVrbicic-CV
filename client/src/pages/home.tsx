@@ -3,6 +3,7 @@ import Experience from "@/components/experience";
 import Skills from "@/components/skills";
 import Certifications from "@/components/certifications";
 import Education from "@/components/education";
+import Projects from "@/components/projects";
 import { Mail, Linkedin, Download, Github, Phone, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -25,6 +26,12 @@ export default function Home() {
               </a>
             </Button>
             <Button variant="outline" className="border-primary/50 text-primary hover:bg-primary/10 hover:text-primary" asChild>
+              <a href="https://github.com/sid1721998" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
+              </a>
+            </Button>
+            <Button variant="outline" className="border-primary/50 text-primary hover:bg-primary/10 hover:text-primary" asChild>
               <a href="https://www.linkedin.com/in/tomislav-v-bb10ba270/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
@@ -41,6 +48,7 @@ export default function Home() {
       </div>
 
       <Experience />
+      <Projects />
       <Skills />
       <Education />
       <Certifications />
@@ -57,9 +65,6 @@ export default function Home() {
               +491782026523
             </a>
           </div>
-          <p className="text-muted-foreground font-mono text-sm mb-4">
-            SYSTEM TERMINATED. END OF LINE.
-          </p>
           <p className="text-xs text-white/20">
             © {new Date().getFullYear()} Tomislav Vrbicic. All rights reserved.
           </p>

@@ -18,18 +18,6 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 z-10 relative">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border-primary/30 text-primary text-sm font-mono mb-8"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            SYSTEM STATUS: ONLINE
-          </motion.div>
 
           <motion.h1 
             initial={{ opacity: 0, scale: 0.9 }}
@@ -40,37 +28,6 @@ export default function Hero() {
             TOMISLAV VRBICIC
           </motion.h1>
 
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-            className="text-xl md:text-2xl text-muted-foreground font-light mb-12 max-w-2xl mx-auto"
-          >
-            Spacecraft Controller & Cybersecurity Specialist
-          </motion.div>
-
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.6 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto"
-          >
-            <div className="glass-panel p-6 rounded-lg tech-border flex flex-col items-center hover:bg-white/5 transition-colors group">
-              <Globe className="w-8 h-8 text-primary mb-4 group-hover:text-accent transition-colors" />
-              <h3 className="font-mono text-sm text-muted-foreground mb-1">CURRENT MISSION</h3>
-              <p className="font-bold">EUMETSAT Ops</p>
-            </div>
-            <div className="glass-panel p-6 rounded-lg tech-border flex flex-col items-center hover:bg-white/5 transition-colors group">
-              <Shield className="w-8 h-8 text-primary mb-4 group-hover:text-accent transition-colors" />
-              <h3 className="font-mono text-sm text-muted-foreground mb-1">SECURITY LEVEL</h3>
-              <p className="font-bold">Cybersec Expert</p>
-            </div>
-            <div className="glass-panel p-6 rounded-lg tech-border flex flex-col items-center hover:bg-white/5 transition-colors group">
-              <Cpu className="w-8 h-8 text-primary mb-4 group-hover:text-accent transition-colors" />
-              <h3 className="font-mono text-sm text-muted-foreground mb-1">SYSTEMS</h3>
-              <p className="font-bold">Linux / Windows</p>
-            </div>
-          </motion.div>
         </div>
       </div>
 

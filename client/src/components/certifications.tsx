@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 import { Award, FileCheck } from "lucide-react";
 
 const certifications = [
-  { name: "Certified in Cybersecurity (CC)", issuer: "ISC2", year: "2024" },
+  { name: "SOC Analyst Learning Path", issuer: "LetsDefend", year: "2025" },
+  { name: "Cyber Security Bootcamp", issuer: "CertifyMe", year: "2025" },
+  { name: "Linux Privilege Escalation", issuer: "TCM Security", year: "2025" },
+  { name: "Practical Ethical Hacking", issuer: "TCM Security", year: "2025" },
+  { name: "Windows Privilege Escalation", issuer: "TCM Security", year: "2025" },
   { name: "Junior Penetration Tester (eJPT)", issuer: "INE", year: "2024" },
-  { name: "Practical Ethical Hacking", issuer: "TCM Security", year: "2024" },
-  { name: "Linux Privilege Escalation", issuer: "TCM Security", year: "2024" },
-  { name: "Windows Privilege Escalation", issuer: "TCM Security", year: "2024" },
+  { name: "Certified in Cybersecurity (CC)", issuer: "ISC2", year: "2024" },
   { name: "Security Principles", issuer: "ISC2", year: "2024" }
 ];
 
