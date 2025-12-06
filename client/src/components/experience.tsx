@@ -11,9 +11,12 @@ const experiences = [
     details: [
       "Operated and monitored spacecraft systems, ensuring mission success and operational safety.",
       "Executed real-time flight operations, telemetry analysis, and anomaly resolution for Meteosat Satellites.",
+      "Part of the Meteosat Third Generation (MTG) operations team.",
+      "Performed system validation tests for MTG-I1 and MTG-S1 satellites.",
       "Collaborated with engineering teams to optimize spacecraft performance and troubleshoot system anomalies.",
       "Developed and implemented operational procedures to enhance mission efficiency and reliability.",
-      "Worked in high-pressure environments, making critical decisions in real-time to ensure spacecraft safety."
+      "Worked in high-pressure environments, making critical decisions in real-time to ensure spacecraft safety.",
+      "Currently transitioning to the Low Earth Orbit (LEO) program."
     ],
     active: true
   },
