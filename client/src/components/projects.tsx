@@ -50,6 +50,12 @@ export default function Projects() {
                 ))}
               </div>
 
+              <video 
+                src="/project-video.mp4" 
+                controls 
+                className="w-full max-w-3xl rounded-lg border border-white/10 shadow-lg mb-6 bg-black/50"
+              />
+
               {/* Note: Since I cannot link to other Replit projects directly, I am leaving this button as a visual element or placeholder for the user to add the real link if they have it public */}
               <Button variant="outline" className="border-primary/30 text-primary hover:bg-primary/10" disabled>
                 <ExternalLink className="mr-2 h-4 w-4" />

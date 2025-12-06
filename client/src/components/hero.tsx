@@ -23,7 +23,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-5xl md:text-7xl font-bold mb-6 font-display tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+            className="text-3xl md:text-5xl font-bold mb-6 font-display tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-white via-blue-100 to-white drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]"
           >
             TOMISLAV VRBICIC
           </motion.h1>

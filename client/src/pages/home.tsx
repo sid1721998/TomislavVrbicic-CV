@@ -15,8 +15,7 @@ export default function Home() {
       <div className="container mx-auto px-4 -mt-20 relative z-20 mb-20">
         <div className="glass-panel p-8 rounded-xl border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl backdrop-blur-xl bg-card/40">
           <div>
-            <h3 className="text-2xl font-display font-bold mb-2">Open to Work</h3>
-            <p className="text-muted-foreground">Open to opportunities in Space Operations & Cybersecurity</p>
+            <h3 className="text-2xl font-display font-bold mb-0">Open to Work</h3>
           </div>
           <div className="flex flex-wrap gap-4 justify-center md:justify-end">
              <Button variant="outline" className="border-white/20 text-white hover:bg-white/10 hover:text-white" asChild>
